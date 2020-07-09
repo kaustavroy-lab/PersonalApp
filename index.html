@@ -158,7 +158,7 @@ randomquote.innerHTML = quotes[Math.floor(quoteCount * Math.random())];
 <img src="images/img0001.png" id="Line1" alt=""></div>
 <div id="wb_Text4" style="position:absolute;left:350px;top:2378px;width:270px;height:64px;z-index:27;">
 <span style="color:#DC143C;font-family:Arial;font-size:27px;"><strong>তোমায় আমায় মিলে</strong></span></div>
-<div id="wb_JavaScript4" style="position:absolute;left:297px;top:2609px;width:376px;height:99px;z-index:28;">
+<div id="wb_JavaScript4" style="position:absolute;left:432px;top:2619px;width:376px;height:99px;z-index:28;">
 <div style="color:#800000;font-size:36px;font-family:Arial;font-weight:bold;font-style:normal;text-align:center;text-decoration:underline" id="countdown-days"></div>
 <script>
 var endDate = new Date("Nov 28, 2020 00:00:00").getTime();
@@ -178,5 +178,34 @@ var timer = setInterval(function()
    }
 }, 1000);
 </script></div>
+<div id="wb_JavaScript5" style="position:absolute;left:131px;top:2620px;width:353px;height:100px;z-index:29;">
+<script>
+
+var blink = 0;
+ 
+function Blink(id)
+{
+   if (blink%2==0)
+   {
+      eval('document.getElementById("' + id + '").style.display=""');
+   }
+   else
+   {
+      eval('document.getElementById("' + id + '").style.display="none"');
+   }
+   if (blink<1)
+   {
+      blink++;
+   } 
+   else
+   {
+      blink--;
+   }
+   setTimeout("Blink('"+id+"')", 100);
+}
+document.write('<div id="wb_blink" style="display:none;color:#800000;font-size:36px;font-family:Arial;font-weight:bold;font-style:normal;text-align:center;text-decoration:none">Happy Birthday In<\/div>');
+Blink('wb_blink');
+</script>
+</div>
 </body>
 </html>
