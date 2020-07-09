@@ -16,16 +16,6 @@ body
    width: 100%;
    height: 100%;
 }
-#Image1
-{
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
 #wb_Text1 
 {
    background-color: transparent;
@@ -46,16 +36,6 @@ body
    width: 100%;
    height: 100%;
 }
-#Image2
-{
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
 #wb_Text2 
 {
    background-color: transparent;
@@ -70,6 +50,26 @@ body
    text-align: left;
 }
 #Image3
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image4
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image1
 {
    border: 0px solid #000000;
    padding: 0;
