@@ -8,6 +8,16 @@
 <link href="index.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="wb.carousel.min.js"></script>
+<link rel="stylesheet" href="magnificpopup/magnific-popup.css">
+<script src="magnificpopup/jquery.magnific-popup.min.js"></script>
+<script>
+function displaylightbox(url, options)
+{
+   options.items = { src: url };
+   options.type = 'iframe';
+   $.magnificPopup.open(options);
+}
+</script>
 <script>
 $(document).ready(function()
 {
@@ -24,6 +34,13 @@ $(document).ready(function()
       start: 0
    };
    $("#Carousel1").carousel(Carousel1Opts);
+   $('#MediaPlayer1').magnificPopup(
+   {
+      closeBtnInside: false,
+      items: {
+         type: 'inline',
+         src: '<div style="position:relative;max-width:640px;margin:20px auto;"><audio src="tapur tupur.mp3" id="MediaPlayer1" autoplay controls loop preload="auto"></audio></div>'}
+   });
 });
 </script>
 </head>
@@ -150,15 +167,15 @@ var randomquote = document.getElementById('randomquote');
 randomquote.innerHTML = quotes[Math.floor(quoteCount * Math.random())];
 </script>
 </div>
-<div id="wb_IconFont1" style="position:absolute;left:450px;top:2412px;width:70px;height:69px;text-align:center;z-index:24;">
+<div id="wb_IconFont1" style="position:absolute;left:449px;top:2527px;width:70px;height:69px;text-align:center;z-index:24;">
 <div id="IconFont1"><i class="material-icons">&#xe87d;</i></div></div>
-<div id="wb_Text3" style="position:absolute;left:362px;top:2500px;width:246px;height:64px;z-index:25;">
+<div id="wb_Text3" style="position:absolute;left:361px;top:2615px;width:246px;height:64px;z-index:25;">
 <span style="color:#DC143C;font-family:Arial;font-size:27px;"><strong>ভালবাসায় কৌস্তভ</strong></span></div>
-<div id="wb_Line1" style="position:absolute;left:114px;top:2590px;width:735px;height:3px;z-index:26;">
+<div id="wb_Line1" style="position:absolute;left:113px;top:2705px;width:735px;height:3px;z-index:26;">
 <img src="images/img0001.png" id="Line1" alt=""></div>
-<div id="wb_Text4" style="position:absolute;left:350px;top:2378px;width:270px;height:64px;z-index:27;">
+<div id="wb_Text4" style="position:absolute;left:349px;top:2493px;width:270px;height:64px;z-index:27;">
 <span style="color:#DC143C;font-family:Arial;font-size:27px;"><strong>তোমায় আমায় মিলে</strong></span></div>
-<div id="wb_JavaScript4" style="position:absolute;left:432px;top:2619px;width:376px;height:99px;z-index:28;">
+<div id="wb_JavaScript4" style="position:absolute;left:431px;top:2734px;width:376px;height:99px;z-index:28;">
 <div style="color:#800000;font-size:36px;font-family:Arial;font-weight:bold;font-style:normal;text-align:center;text-decoration:underline" id="countdown-days"></div>
 <script>
 var endDate = new Date("Nov 28, 2020 00:00:00").getTime();
@@ -178,7 +195,7 @@ var timer = setInterval(function()
    }
 }, 1000);
 </script></div>
-<div id="wb_JavaScript5" style="position:absolute;left:131px;top:2620px;width:353px;height:100px;z-index:29;">
+<div id="wb_JavaScript5" style="position:absolute;left:130px;top:2735px;width:353px;height:100px;z-index:29;">
 <script>
 
 var blink = 0;
@@ -206,6 +223,9 @@ function Blink(id)
 document.write('<div id="wb_blink" style="display:none;color:#800000;font-size:36px;font-family:Arial;font-weight:bold;font-style:normal;text-align:center;text-decoration:none">Happy Birthday In<\/div>');
 Blink('wb_blink');
 </script>
+</div>
+<div id="wb_MediaPlayer1" style="position:absolute;left:436px;top:2364px;width:99px;height:99px;z-index:30;">
+<a id="MediaPlayer1" title="Tapur Tupur " href="#"><img src="images/icon.png" alt="Tapur Tupur "></a>
 </div>
 </body>
 </html>

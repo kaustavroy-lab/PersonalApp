@@ -28,6 +28,56 @@
    -moz-osx-font-smoothing: grayscale;
    font-feature-settings: "liga";
 }
+@-webkit-keyframes animate-background
+{
+   0% { background-color: #000000;  }
+   100% { background-color: #FFFFFF;  }
+}
+@-moz-keyframes animate-background
+{
+   0% { background-color: #000000;  }
+   100% { background-color: #FFFFFF;  }
+}
+@-o-keyframes animate-background
+{
+   0% { background-color: #000000;  }
+   100% { background-color: #FFFFFF;  }
+}
+@-ms-keyframes animate-background
+{
+   0% { background-color: #000000;  }
+   100% { background-color: #FFFFFF;  }
+}
+@keyframes animate-background
+{
+   0% { background-color: #000000;  }
+   100% { background-color: #FFFFFF;  }
+}
+@-webkit-keyframes focus-out
+{
+   0% { opacity: 1.0; filter: blur(0);  }
+   100% { opacity: 0.0; filter: blur(20px);  }
+}
+@-moz-keyframes focus-out
+{
+   0% { opacity: 1.0; filter: blur(0);  }
+   100% { opacity: 0.0; filter: blur(20px);  }
+}
+@-o-keyframes focus-out
+{
+   0% { opacity: 1.0; filter: blur(0);  }
+   100% { opacity: 0.0; filter: blur(20px);  }
+}
+@-ms-keyframes focus-out
+{
+   0% { opacity: 1.0; filter: blur(0);  }
+   100% { opacity: 0.0; filter: blur(20px);  }
+}
+@keyframes focus-out
+{
+   0% { opacity: 1.0; filter: blur(0);  }
+   100% { opacity: 0.0; filter: blur(20px);  }
+}
 a
 {
    color: #0000FF;
