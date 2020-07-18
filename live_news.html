@@ -6,7 +6,6 @@
 <meta name="generator" content="WYSIWYG Web Builder 14 - http://www.wysiwygwebbuilder.com">
 <link href="Kastu.css" rel="stylesheet">
 <link href="live_news.css" rel="stylesheet">
-<script src="jquery-1.12.4.min.js"></script>
 <script src="https://www.youtube.com/iframe_api"></script>
 <script>
 var playerYouTube1;
@@ -21,34 +20,6 @@ function onYouTubeIframeAPIReady() {
       }
    });
 }
-</script>
-<script>
-$(document).ready(function()
-{
-   function resizeYouTube() 
-   {
-      var ratio = 16/9;
-      var widthViewPort = $(window).width();
-      var heightViewPort = $(window).height();
-      var width, height;
-      var $player = $('#YouTube1');
-      if (widthViewPort / ratio < heightViewPort)
-      {
-         width = Math.ceil(heightViewPort * ratio);
-         $player.width(width).height(heightViewPort).css({left: (widthViewPort - width) / 2, top: 0});
-      }
-      else
-      {
-         height = Math.ceil(widthViewPort / ratio);
-         $player.width(widthViewPort).height(height).css({left: 0, top: (heightViewPort - height) / 2});
-      }
-   }
-   $(window).on('resize', function() 
-   {
-      resizeYouTube();
-   })
-   resizeYouTube();
-});
 </script>
 </head>
 <body>
