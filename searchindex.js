@@ -21,6 +21,5 @@ function SearchDatabase()
    this[database_length++] = new SearchPage("Facebookpage.html", "Untitled Page", " ", "");
    this[database_length++] = new SearchPage("live_news.html", "Untitled Page", "ABP ANANDA  KOLKATA TV   ", "");
    this[database_length++] = new SearchPage("family.html", "Untitled Page", " ", "");
-   this[database_length++] = new SearchPage("page3.html", "Untitled Page", " ", "");
    return this;
 }
