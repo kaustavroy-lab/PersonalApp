@@ -9,8 +9,6 @@
 <link href="index.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="wb.carousel.min.js"></script>
-<script src="transition.min.js"></script>
-<script src="modal.min.js"></script>
 <link rel="stylesheet" href="magnificpopup/magnific-popup.css">
 <script src="magnificpopup/jquery.magnific-popup.min.js"></script>
 <script>
@@ -44,17 +42,11 @@ $(document).ready(function()
          type: 'inline',
          src: '<div style="position:relative;max-width:640px;margin:20px auto;"><audio src="tapur tupur.mp3" id="MediaPlayer1" autoplay controls loop preload="auto"></audio></div>'}
    });
-   $("#Layer1").modal('show');
-   $("a[href*='#Layer1']").click(function(event)
-   {
-      event.preventDefault();
-      $('html, body').stop().animate({ scrollTop: $('#Layer1').offset().top }, 600, 'linear');
-   });
 });
 </script>
 </head>
 <body>
-<div id="wb_Carousel1" style="position:absolute;left:0px;top:274px;width:970px;height:969px;z-index:16;overflow:hidden;">
+<div id="wb_Carousel1" style="position:absolute;left:0px;top:274px;width:970px;height:969px;z-index:13;overflow:hidden;">
 <div id="Carousel1" style="position:absolute;">
 <div class="frame">
 <div id="wb_Image20" style="position:absolute;left:0px;top:0px;width:967px;height:969px;z-index:0;">
@@ -100,23 +92,23 @@ $(document).ready(function()
 </div>
 </div>
 </div>
-<div id="wb_Text1" style="position:absolute;left:74px;top:141px;width:823px;height:82px;z-index:17;">
+<div id="wb_Text1" style="position:absolute;left:74px;top:141px;width:823px;height:82px;z-index:14;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:35px;"><strong>&quot; আমার ভিতর বাহিরে অন্তরে অন্তরে আছো তুমি &quot;</strong></span></div>
-<div id="wb_Text2" style="position:absolute;left:451px;top:211px;width:68px;height:49px;z-index:18;">
+<div id="wb_Text2" style="position:absolute;left:451px;top:211px;width:68px;height:49px;z-index:15;">
 <span style="color:#FF0000;font-family:Arial;font-size:43px;">❤️</span></div>
-<div id="wb_Image6" style="position:absolute;left:0px;top:1243px;width:323px;height:323px;z-index:19;">
+<div id="wb_Image6" style="position:absolute;left:0px;top:1243px;width:323px;height:323px;z-index:16;">
 <a href="./kastu_img.html"><img src="images/button1.png" id="Image6" alt=""></a></div>
-<div id="wb_Image7" style="position:absolute;left:329px;top:1243px;width:323px;height:323px;z-index:20;">
+<div id="wb_Image7" style="position:absolute;left:329px;top:1243px;width:323px;height:323px;z-index:17;">
 <a href="./kaustav_img.html"><img src="images/button2.png" id="Image7" alt=""></a></div>
-<div id="wb_Image8" style="position:absolute;left:0px;top:1930px;width:323px;height:323px;z-index:21;">
+<div id="wb_Image8" style="position:absolute;left:0px;top:1930px;width:323px;height:323px;z-index:18;">
 <a href="./youtube.html"><img src="images/button3.png" id="Image8" alt=""></a></div>
-<div id="wb_Image9" style="position:absolute;left:4px;top:1590px;width:319px;height:319px;z-index:22;">
+<div id="wb_Image9" style="position:absolute;left:4px;top:1590px;width:319px;height:319px;z-index:19;">
 <a href="./drawing.html"><img src="images/button4.png" id="Image9" alt=""></a></div>
-<div id="wb_Image10" style="position:absolute;left:332px;top:1590px;width:319px;height:319px;z-index:23;">
+<div id="wb_Image10" style="position:absolute;left:332px;top:1590px;width:319px;height:319px;z-index:20;">
 <a href="./Facebookpage.html"><img src="images/button5.png" id="Image10" alt=""></a></div>
-<div id="wb_Image11" style="position:absolute;left:661px;top:1590px;width:309px;height:312px;z-index:24;">
+<div id="wb_Image11" style="position:absolute;left:661px;top:1590px;width:309px;height:312px;z-index:21;">
 <a href="./live_news.html"><img src="images/button6.png" id="Image11" alt=""></a></div>
-<div id="wb_JavaScript1" style="position:absolute;left:255px;top:21px;width:460px;height:51px;z-index:25;">
+<div id="wb_JavaScript1" style="position:absolute;left:255px;top:21px;width:460px;height:51px;z-index:22;">
 <div id="greeting" style="font-family:Arial;font-size:36px;color:#FFFFFF;font-weight:normal;font-style:normal;text-align:center;text-decoration:underline;"></div> 
 <script>
 var datenow = new Date(); 
@@ -138,7 +130,7 @@ else
    greeting.innerHTML = "সুপ্রভাত সুন্দরী "; 
 }
 </script></div>
-<div id="wb_JavaScript2" style="position:absolute;left:368px;top:72px;width:235px;height:97px;z-index:26;">
+<div id="wb_JavaScript2" style="position:absolute;left:368px;top:72px;width:235px;height:97px;z-index:23;">
 <div style="color:#FFFFFF;font-size:36px;font-family:Arial;font-weight:bold;font-style:italic;text-align:center;text-decoration:none" id="basicclock"></div>
 <script>
 function clock() 
@@ -159,13 +151,13 @@ clock();
 </script>
 
 </div>
-<div id="wb_Image12" style="position:absolute;left:658px;top:1924px;width:315px;height:329px;z-index:27;">
+<div id="wb_Image12" style="position:absolute;left:658px;top:1924px;width:315px;height:329px;z-index:24;">
 <a href="https://www.windy.com/?22.566,88.365,5"><img src="images/button8.png" id="Image12" alt=""></a></div>
-<div id="wb_Image13" style="position:absolute;left:323px;top:1916px;width:335px;height:354px;z-index:28;">
+<div id="wb_Image13" style="position:absolute;left:323px;top:1916px;width:335px;height:354px;z-index:25;">
 <a href="https://www.mygov.in/covid-19/"><img src="images/button7.png" id="Image13" alt=""></a></div>
-<div id="wb_Image14" style="position:absolute;left:658px;top:1240px;width:315px;height:326px;z-index:29;">
+<div id="wb_Image14" style="position:absolute;left:658px;top:1240px;width:315px;height:326px;z-index:26;">
 <a href="./family.html"><img src="images/button9.png" id="Image14" alt=""></a></div>
-<div id="wb_JavaScript3" style="position:absolute;left:0px;top:2897px;width:970px;height:95px;z-index:30;">
+<div id="wb_JavaScript3" style="position:absolute;left:0px;top:2897px;width:970px;height:95px;z-index:27;">
 <div style="color:#800000;font-size:22px;font-family:Arial;font-weight:bold;font-style:normal;text-align:center;text-decoration:none" id="randomquote"></div>
 <script>
 var quoteCount = 0;
@@ -190,15 +182,15 @@ var randomquote = document.getElementById('randomquote');
 randomquote.innerHTML = quotes[Math.floor(quoteCount * Math.random())];
 </script>
 </div>
-<div id="wb_IconFont1" style="position:absolute;left:449px;top:3132px;width:70px;height:69px;text-align:center;z-index:31;">
+<div id="wb_IconFont1" style="position:absolute;left:449px;top:3132px;width:70px;height:69px;text-align:center;z-index:28;">
 <div id="IconFont1"><i class="material-icons">&#xe87d;</i></div></div>
-<div id="wb_Text3" style="position:absolute;left:361px;top:3220px;width:246px;height:64px;z-index:32;">
+<div id="wb_Text3" style="position:absolute;left:361px;top:3220px;width:246px;height:64px;z-index:29;">
 <span style="color:#DC143C;font-family:Arial;font-size:27px;"><strong>ভালবাসায় কৌস্তভ</strong></span></div>
-<div id="wb_Line1" style="position:absolute;left:113px;top:3310px;width:735px;height:3px;z-index:33;">
+<div id="wb_Line1" style="position:absolute;left:113px;top:3310px;width:735px;height:3px;z-index:30;">
 <img src="images/img0001.png" id="Line1" alt=""></div>
-<div id="wb_Text4" style="position:absolute;left:349px;top:3098px;width:270px;height:64px;z-index:34;">
+<div id="wb_Text4" style="position:absolute;left:349px;top:3098px;width:270px;height:64px;z-index:31;">
 <span style="color:#DC143C;font-family:Arial;font-size:27px;"><strong>তোমায় আমায় মিলে</strong></span></div>
-<div id="wb_JavaScript4" style="position:absolute;left:431px;top:3339px;width:376px;height:99px;z-index:35;">
+<div id="wb_JavaScript4" style="position:absolute;left:431px;top:3339px;width:376px;height:99px;z-index:32;">
 <div style="color:#800000;font-size:36px;font-family:Arial;font-weight:bold;font-style:normal;text-align:center;text-decoration:underline" id="countdown-days"></div>
 <script>
 var endDate = new Date("Nov 28, 2020 00:00:00").getTime();
@@ -218,7 +210,7 @@ var timer = setInterval(function()
    }
 }, 1000);
 </script></div>
-<div id="wb_JavaScript5" style="position:absolute;left:130px;top:3340px;width:353px;height:100px;z-index:36;">
+<div id="wb_JavaScript5" style="position:absolute;left:130px;top:3340px;width:353px;height:100px;z-index:33;">
 <script>
 
 var blink = 0;
@@ -247,37 +239,18 @@ document.write('<div id="wb_blink" style="display:none;color:#800000;font-size:3
 Blink('wb_blink');
 </script>
 </div>
-<div id="wb_MediaPlayer1" style="position:absolute;left:436px;top:2969px;width:99px;height:99px;z-index:37;">
+<div id="wb_MediaPlayer1" style="position:absolute;left:436px;top:2969px;width:99px;height:99px;z-index:34;">
 <a id="MediaPlayer1" title="Tapur Tupur " href="#"><img src="images/icon.png" alt="Tapur Tupur "></a>
 </div>
-<div id="wb_Image19" style="position:absolute;left:34px;top:2799px;width:590px;height:65px;z-index:38;">
+<div id="wb_Image19" style="position:absolute;left:34px;top:2799px;width:590px;height:65px;z-index:35;">
 <a href="https://www.seramporegirlscollege.org/sgc/"><img src="images/swx1fqf0y7.jpg" id="Image19" alt=""></a></div>
-<div id="wb_Image23" style="position:absolute;left:34px;top:2270px;width:429px;height:246px;z-index:39;">
+<div id="wb_Image23" style="position:absolute;left:34px;top:2270px;width:429px;height:246px;z-index:36;">
 <a href="https://drive.google.com/drive/folders/17jPSbhgNZPegRaqugymSapZC5VJvf5C1?usp=sharing"><img src="images/frsy9j06l7.jpg" id="Image23" alt=""></a></div>
-<div id="wb_Image24" style="position:absolute;left:503px;top:2271px;width:415px;height:265px;z-index:40;">
+<div id="wb_Image24" style="position:absolute;left:503px;top:2271px;width:415px;height:265px;z-index:37;">
 <a href="https://drive.google.com/drive/folders/196_RlXn1I6EWRmzEm8A4jZIfc5yTX7ks?usp=sharing"><img src="images/ya04dwoew3.jpg" id="Image24" alt=""></a></div>
-<div id="wb_Image26" style="position:absolute;left:637px;top:2799px;width:323px;height:65px;z-index:41;">
+<div id="wb_Image26" style="position:absolute;left:637px;top:2799px;width:323px;height:65px;z-index:38;">
 <a href="https://wynk.in/music"><img src="images/w2enpul1uh.jpg" id="Image26" alt=""></a></div>
-<div id="Layer1" class="modal fade" role="dialog" style="text-align:left;">
-<div class="modal-dialog">
-<div class="modal-content">
-<div class="modal-body">
-<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-<div id="wb_YouTube2" style="display:inline-block;width:100%;z-index:13;">
-<iframe id="YouTube2" src="https://www.youtube.com/embed/th1N3S8gbLA&amp;t=19s?rel=0&amp;loop=1&amp;playlist=th1N3S8gbLA&amp;autoplay=1&amp;modestbranding=1&amp;autohide=1&amp;fs=1" allowfullscreen></iframe>
-
-</div>
-<div id="wb_Text6">
-<span style="color:#FFFFFF;font-family:Arial;font-size:29px;"><strong>Val Lage Na | Episode-2; Awkward Conversations with Partners | Dristikon Online</strong></span>
-</div>
-<div id="wb_Text7">
-<span style="color:#FFFFFF;font-family:Arial;font-size:20px;"><strong>CONTENT DETAILS:</strong><br>Val Lage Na<br><strong>Episode 2; Awkward Conversations with Partners</strong><br><br>Casts: Jagnaseni &amp; Soudip<br>Script- Gourav <br>Direction- Soumyadyuti<br>VFX and Editing- Kaustav Roy</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="wb_Image25" style="position:absolute;left:275px;top:2563px;width:369px;height:209px;z-index:43;">
+<div id="wb_Image25" style="position:absolute;left:275px;top:2563px;width:369px;height:209px;z-index:39;">
 <a href="https://amp.erail.in/trains-between-stations/tarakeswar-TAK/howrah-jn-HWH"><img src="images/akmi4pucti.jpg" id="Image25" alt=""></a></div>
 </body>
 </html>
