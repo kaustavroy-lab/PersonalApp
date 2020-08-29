@@ -13,7 +13,7 @@ function SearchPage(url, title, keywords, description)
 function SearchDatabase()
 {
    database_length = 0;
-   this[database_length++] = new SearchPage("index.html", "Untitled Page", "\" আমার ভিতর বাহিরে অন্তরে অন্তরে আছো তুমি \"  ❤️  ভালবাসায় কৌস্তভ  তোমায় আমায় মিলে  Play Video   ", "");
+   this[database_length++] = new SearchPage("index.html", "Untitled Page", "\" আমার ভিতর বাহিরে অন্তরে অন্তরে আছো তুমি \"  ❤️  ভালবাসায় কৌস্তভ  তোমায় আমায় মিলে  Play Video  Images   ", "");
    this[database_length++] = new SearchPage("kastu_img.html", "Untitled Page", " ", "");
    this[database_length++] = new SearchPage("kaustav_img.html", "Untitled Page", " ", "");
    this[database_length++] = new SearchPage("youtube.html", "Untitled Page", "Wonder Munna  ashish chanchlani vines  Bollywood Spy  Bengali Home Kitchen  Bengali Kitchen  Dristikon Online  StarPlus   Live Tv    StarPlus    Only Serial Based Content    bindass  ZingTV   ", "");
@@ -21,5 +21,6 @@ function SearchDatabase()
    this[database_length++] = new SearchPage("Facebookpage.html", "Untitled Page", " ", "");
    this[database_length++] = new SearchPage("live_news.html", "Untitled Page", "ABP ANANDA  KOLKATA TV   ", "");
    this[database_length++] = new SearchPage("family.html", "Untitled Page", " ", "");
+   this[database_length++] = new SearchPage("image_new.html", "Untitled Page", "Images   ", "");
    return this;
 }
